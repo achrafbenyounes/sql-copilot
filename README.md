@@ -47,7 +47,7 @@ cd sql-copilot
 
 pip install -r requirements.txt
 
-3. Create the database from the sample data:
+3. Create the database from the sample data from cmd or bash command:
 
 sqlite3 sales.db < sample_data.sql
 
