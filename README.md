@@ -29,7 +29,7 @@
 
 - **Python**  
 - **Streamlit** – for the web interface  
-- **OpenAI API (GPT-3.5 / GPT-4)** – for SQL generation  
+- **CLAUDE API (Sonnet 4)** – for SQL generation  
 - **SQLite** – database for testing  
 - **Matplotlib / Pandas** – for data handling and visualization  
 
