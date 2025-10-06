@@ -53,36 +53,37 @@ sqlite3 sales.db < sample_data.sql
 
 4. Set your Claude API key:
 
-Configuration de la variable d’environnement CLAUDE_API_KEY (Windows / PowerShell)
-Pour que l’application puisse accéder à l’API Claude AI, vous devez définir la clé API dans une variable d’environnement nommée CLAUDE_API_KEY.
+🔧 Setting the CLAUDE_API_KEY Environment Variable (Windows / PowerShell)
 
-🧭 Étapes à suivre
-1️⃣ Ouvrir PowerShell
+To allow the application to access the Claude AI API, you need to set your API key in an environment variable named CLAUDE_API_KEY.
 
-Cliquez sur Démarrer → tapez PowerShell → ouvrez Windows PowerShell (pas besoin de mode administrateur).
+🧭 Steps to follow
+1️⃣ Open PowerShell
 
-2️⃣ Créer la variable d’environnement (permanente)
+Click Start → type PowerShell → open Windows PowerShell (no need for administrator mode).
 
-Dans PowerShell, exécutez :
+2️⃣ Create the Environment Variable (Permanent)
 
-setx CLAUDE_API_KEY "votre_cle_claude_ici"
+In PowerShell, run:
 
-Exemple :
+setx CLAUDE_API_KEY "your_claude_api_key_here"
+
+Example:
 
 setx CLAUDE_API_KEY "sk-ant-api03-XXXXXXXXXXXXXXXXXXXXXXXX"
 
-🟢 Vous devriez voir le message :
+🟢 You should see the message:
 
-RÉUSSITE : la valeur spécifiée a été enregistrée.
+SUCCESS: The specified value was saved.
 
-3️⃣ Redémarrer PowerShell (ou VS Code)
+3️⃣ Restart PowerShell (or VS Code)
 
-Fermez la fenêtre PowerShell, puis rouvrez-en une nouvelle.
-Vérifiez que la clé est bien enregistrée :
+Close the PowerShell window and open a new one.
+Check that the key is correctly set:
 
 echo $Env:CLAUDE_API_KEY
 
-Si votre clé s’affiche → tout est bon ✅
+If your key is displayed → everything is good ✅
 
 5. Run the app:
 
