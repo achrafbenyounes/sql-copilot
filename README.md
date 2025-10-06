@@ -58,6 +58,7 @@ sqlite3 sales.db < sample_data.sql
 To allow the application to access the Claude AI API, you need to set your API key in an environment variable named CLAUDE_API_KEY.
 
 🧭 Steps to follow
+
 1️⃣ Open PowerShell
 
 Click Start → type PowerShell → open Windows PowerShell (no need for administrator mode).
