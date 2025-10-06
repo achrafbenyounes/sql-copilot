@@ -51,11 +51,38 @@ pip install -r requirements.txt
 
 sqlite3 sales.db < sample_data.sql
 
-4. Set your OpenAI API key:
+4. Set your Claude API key:
 
-export OPENAI_API_KEY="your_api_key_here"
+Configuration de la variable d’environnement CLAUDE_API_KEY (Windows / PowerShell)
+Pour que l’application puisse accéder à l’API Claude AI, vous devez définir la clé API dans une variable d’environnement nommée CLAUDE_API_KEY.
 
-Or replace it directly in app.py (for testing only).
+🧭 Étapes à suivre
+1️⃣ Ouvrir PowerShell
+
+Cliquez sur Démarrer → tapez PowerShell → ouvrez Windows PowerShell (pas besoin de mode administrateur).
+
+2️⃣ Créer la variable d’environnement (permanente)
+
+Dans PowerShell, exécutez :
+
+setx CLAUDE_API_KEY "votre_cle_claude_ici"
+
+Exemple :
+
+setx CLAUDE_API_KEY "sk-ant-api03-XXXXXXXXXXXXXXXXXXXXXXXX"
+
+🟢 Vous devriez voir le message :
+
+RÉUSSITE : la valeur spécifiée a été enregistrée.
+
+3️⃣ Redémarrer PowerShell (ou VS Code)
+
+Fermez la fenêtre PowerShell, puis rouvrez-en une nouvelle.
+Vérifiez que la clé est bien enregistrée :
+
+echo $Env:CLAUDE_API_KEY
+
+Si votre clé s’affiche → tout est bon ✅
 
 5. Run the app:
 
