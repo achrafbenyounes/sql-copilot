@@ -31,7 +31,7 @@
 - **Streamlit** – for the web interface  
 - **CLAUDE API (Sonnet 4)** – for SQL generation  
 - **SQLite** – database for testing  
-- **Matplotlib / Pandas** – for data handling and visualization  
+- **Matplotlib** – for visualization  
 
 ---
 
