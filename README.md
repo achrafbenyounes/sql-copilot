@@ -98,6 +98,13 @@ Click “Generate and Execute”.
 
 View the generated SQL query, table results, and visualization automatically.
 
+Example of execution :
+
+show me the total amount of all orders by client name
+
+<img width="626" height="382" alt="image" src="https://github.com/user-attachments/assets/d5055843-2326-43c0-8e78-1ea832f4aa47" />
+
+
 Future Improvements 🔮
 
 Support for more database types (PostgreSQL, MySQL).
