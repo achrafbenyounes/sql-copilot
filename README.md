@@ -1,6 +1,6 @@
 # SQL Copilot 🤖
 
-**SQL Copilot** is an intelligent assistant that generates SQL queries from natural language questions and visualizes the results automatically. Built with Python, Streamlit, and OpenAI’s GPT, this project demonstrates the power of **Generative AI applied to Data**.  
+**SQL Copilot** is an intelligent assistant that generates SQL queries from natural language questions and visualizes the results automatically. Built with Python, Streamlit, and Claude Sonnet, this project demonstrates the power of **Generative AI applied to Data**.  
 
 ---
 
